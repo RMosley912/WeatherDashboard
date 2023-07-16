@@ -22,18 +22,21 @@ The design and layout of the application are made easy to navigate using Bootstr
 ## How To Use
 
 1. Visit the web application
-2. Enter the name of the city in the search bar and press Enter
+2. Type the name of the city in the search bar and press Enter
 3. The current weather data and the 5-day forecast will appear on the screen
 4. The entered city will be saved in the search history panel
 5. To view the data of a previously searched city, just click on the city name in the search history panel
 
 ## Screenshots
 
-(TODO: Add screenshots of the application)
+When you load up the page, you will be shown any previous cities you searched for
 
-## Contribute
+![WeatherDashboardScreenshot1](https://github.com/RMosley912/WeatherDashboard/assets/122495055/be12b7cc-34d3-4bfd-96af-079caa1138b9)
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Type in a new city into the search and you will be shown it's 5 day forecast, and the city will be added to the search history
+
+![Weatherdashboardscreenshot2](https://github.com/RMosley912/WeatherDashboard/assets/122495055/1541da33-2572-452c-b0ab-878d08b22627)
+
 
 ## License
 
