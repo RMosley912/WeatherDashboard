@@ -1,12 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>5 Day Forecast</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <title>Weather Dashboard</title>
 </head>
+
 <body>
+
+    <!-- The main container for the app -->
+
     
+    <div class="container">
+        <div class="row mt-4">
+            <!-- The app title -->
+            <header class="col-md-12">
+                <h1 class="text-center text-primary">Weather Dashboard</h1>
+            </header>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Search</h5>
+                        <input id="city-input" type="text" class="form-control" placeholder="Enter city name">
+                        <button id="search-button" class="btn btn-primary mt-3">Search</button>
+                        <h5 class="card-title mt-4">Search History</h5>
+                        <div id="search-history"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body" id="current-weather"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4" id="forecast"></div>
+    </div>
+    <script src="Assets/js/script.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,33 @@
+body {
+    background-color: lightblue;
+    color: orange;
+}
+
+.card {
+    background-color: orange;
+    color: lightblue;
+}
+
+.btn-primary {
+    background-color: lightblue;
+    border-color: lightblue;
+    color: orange;
+}
+
+.btn-primary:hover {
+    background-color: orange;
+    border-color: orange;
+    color: lightblue;
+}
+
+.btn-secondary {
+    background-color: lightblue;
+    border-color: lightblue;
+    color: orange;
+}
+
+.btn-secondary:hover {
+    background-color: orange;
+    border-color: orange;
+    color: lightblue;
+}
